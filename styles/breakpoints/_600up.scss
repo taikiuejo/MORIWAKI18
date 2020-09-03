@@ -1,0 +1,23 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+
+.about{
+  background-image:none;
+}
+
+
+.feature{
+  &__cards{
+    flex-direction: row;
+  }
+}
+
+.promotion-video{
+  &__inner{
+    width: 70%;
+    max-width: $contentMaxWidth;
+  }
+}
